@@ -13,4 +13,12 @@ const pool = new Pool({
     database: "sistema-encuestas",
     password: "admin",
     port: 5432,*/
+
+pool.connect((err,client,done) => {
+    if(!err){
+        console.log("Conexion establecida")
+    }else{
+        console.log(err)
+    }
+})
 module.exports = pool;
