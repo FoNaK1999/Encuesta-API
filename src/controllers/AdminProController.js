@@ -152,7 +152,7 @@ const InvitarProfesional = (req,res) => {
 
     try{
         if(correo.length != 0){
-            let mensaje = 'Se le invita a participar en el sistema de encuestas ingresando al siguiente link : https://encuestas-vue.herokuapp.com//Profesional/RegPro';
+            let mensaje = 'Se le invita a participar en el sistema de encuestas ingresando al siguiente link : https://encuestas-vue.herokuapp.com/Profesional/RegPro';
             var mailOptions = {
                 from: 'sysencuesta@gmail.com',
                 to: correo,
