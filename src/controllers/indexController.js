@@ -97,7 +97,7 @@ const IniciarSesion = async (req,res) => {
                         }
                     }else{
                         console.log(err);
-                        //res.json('3');
+                        res.json('3');
                     }
                 })
             }else{
