@@ -25,4 +25,5 @@ pool.connect((err,client,done) => {
         console.log(err)
     }
 })
+
 module.exports = pool;

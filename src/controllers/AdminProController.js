@@ -256,6 +256,9 @@ const ActivarProfesional = (req,res) => {
     }
 }
 
+const ValidarAcceso = (req,res) => {
+    res.json('Correcto');
+}
 
 module.exports = {
     ObtenerProfesionales,
@@ -263,7 +266,8 @@ module.exports = {
     ActualizarProfesional,
     EliminarProfesional,
     ActivarProfesional,
-    InvitarProfesional
+    InvitarProfesional,
+    ValidarAcceso
 }
 
 

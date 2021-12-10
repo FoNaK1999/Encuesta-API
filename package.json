@@ -1,7 +1,7 @@
 {
   "name": "sistema-encuestas-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "SISTEMA ENCUESTA",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
@@ -20,5 +20,13 @@
     "nodemailer": "^6.7.2",
     "pg": "^8.7.1",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoNaK1999/Encuesta-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FoNaK1999/Encuesta-API/issues"
+  },
+  "homepage": "https://github.com/FoNaK1999/Encuesta-API#readme"
 }

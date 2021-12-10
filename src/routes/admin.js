@@ -6,7 +6,7 @@ const AdminProController = require('../controllers/AdminProController');
 
 //Rutas funciones Administrador
 //Funciones Encuestas
-router.post('/',validateToken,validateAdmin);
+router.post('/',validateToken,validateAdmin,AdminProController.ValidarAcceso);
 router.post('/CargarEncuestas',validateToken,validateAdmin,AdminController.ObtenerEncuestas);
 router.post('/CrearEncuesta',validateToken,validateAdmin,AdminController.CrearEncuesta);
 //Prueba
